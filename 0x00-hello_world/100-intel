@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=$CFILE > main.s
+gcc -c -S -masm=$CFILE >> $CFILE
