@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c -S -masm=$CFILE >> $CFILE
+gcc -S -masm=$CFILE -o $CFILE
