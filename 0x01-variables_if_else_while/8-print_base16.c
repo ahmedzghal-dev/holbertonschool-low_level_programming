@@ -14,8 +14,6 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	for (n = '0'; n <= '9'; ++n)
 	{
@@ -25,7 +23,7 @@ int main(void)
 	{
 	putchar(n);
 	}
-i	putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
