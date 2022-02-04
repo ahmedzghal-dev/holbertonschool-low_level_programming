@@ -13,11 +13,14 @@
 int main(void)
 {
 	int n;
-	char alphabet;
+	char c;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	alphabet = 'a';
-	putchar(alphabet"\n");
+	for (c = 'a'; c <= 'z'; ++c) {
+		putchar(c);
+	}
+	 
 	return (0);
+}
