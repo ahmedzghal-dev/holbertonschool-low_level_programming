@@ -6,11 +6,9 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int n;
-
-	for (n = n )
-	{
-	putchar("_putchar");
-	}
-
-	return (0);
+int putchar(int c) 
+{
+	putchar(c, "_putchar\d")
+	
+	return(0);
+}
