@@ -8,7 +8,7 @@
  */
 int putchar(int c) 
 {
-	putchar(c, "_putchar\d")
+	putchar(c, "_putchar")
 	
 	return(0);
 }
