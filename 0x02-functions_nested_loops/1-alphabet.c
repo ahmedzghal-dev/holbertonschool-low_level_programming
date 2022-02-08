@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int n;
+	char n;
 
 	n = "n\n",
 	for (n = 'a'; n <= 'z'; ++n)
