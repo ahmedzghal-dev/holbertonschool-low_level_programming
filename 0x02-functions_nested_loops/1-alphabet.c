@@ -1,20 +1,18 @@
 #include "main.h"
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 
 /**
- * main - Entry point
+ * print_alphabet - a function that prints the alphabet
  *
- * Return: Always 0 (Success)
+ * Return: Always return void.
  */
-int main(void)
+void print_alphabet(void)
 {
-	char n;
 
-	n = "n\n",
-	for (n = 'a'; n <= 'z'; ++n)
+	int i;
+
+	for (i = 97 ; i <= 122; i++)
 	{
-	_putchar(n);
+	_putchar(i);
 	}
+	_putchar('\n');
 }
