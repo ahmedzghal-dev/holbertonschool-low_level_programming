@@ -2,8 +2,6 @@
 #define HEADER_FILE
 
 int _putchar(char c);
-char *test (void);
-int x;
-
+int i;
 
 #endif
