@@ -15,4 +15,5 @@ void print_alphabet_x10(void)
 	_putchar(i * 10);
 	}
 	_putchar('\n');
+	return (0);
 }
