@@ -8,11 +8,9 @@
  */
 int n;
 
-	/* your code goes there */
 	for (n = n )
 	{
 	putchar("_putchar");
 	}
-	putchar('\n');
 
 	return (0);
