@@ -6,9 +6,11 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int putchar(int c) 
-{
-	putchar(c, "_putchar")
-	
-	return(0);
+int x;
+char *test (void);
+
+int main (void) {
+   putchar (test ("_putchar"));
+
+   return (0);
 }
