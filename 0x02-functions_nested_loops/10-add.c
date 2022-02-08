@@ -7,5 +7,6 @@
 
 int add(int a, int b)
 {
-	return (int)&(  ( (char *)a )[b] );
+	if (!a) return b;
+	else return sum((a&b)<<1,a^b);
 }
