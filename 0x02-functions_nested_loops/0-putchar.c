@@ -6,11 +6,17 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int x;
-char *test (void);
 
-int main (void) {
-   putchar (test ("_putchar"));
+int i; {
+i = "_putchar";
 
-   return (0);
+while(str[i]!='\0')
+
+{
+
+putchar( str[i] );
+
+i++;
+}
+return (0);
 }
