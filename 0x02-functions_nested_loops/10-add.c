@@ -7,6 +7,5 @@
 
 int add(int a, int b)
 {
-	if (!a) return b;
-	else return sum((a&b)<<1,a^b);
+	return ( a + b );
 }
