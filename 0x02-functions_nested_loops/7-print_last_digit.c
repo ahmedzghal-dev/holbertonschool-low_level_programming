@@ -1,9 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_last_digit - print the last digit of n.
+ *@n: integer.
  *
- * Return: Always 0.
+ * Return: result.
  */
 
 int print_last_digit(int);
+{
+	int 1 = n % 10;
+
+	if (n < 0)
+{
+	1 = 1 * -1;
+}
+	_putchar('0' + 1);
+	return (1);
+}
