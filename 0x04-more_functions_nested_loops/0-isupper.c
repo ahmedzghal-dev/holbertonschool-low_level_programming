@@ -6,15 +6,10 @@
  *
  * Return: if c uppercase print 1, else print 0.
  */
-	int _isupper(int c)
+int _isupper(int c)
 {
-	int c = 'c';
-
-	if (isupper(c))
-{
-	_putchar(0);
-	_putchar("\n");
-}
+	if (c < 65 || c > 90)
+	return (0);
 	else
 	return (1);
 }
