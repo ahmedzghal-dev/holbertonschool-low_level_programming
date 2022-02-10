@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _isdigit - alphabet checker.
- * @c: integer
+ * mul - multiplication.
+ * @a: integer
+ * @b: integer
  *
- * Return: if c digit  print 1, else print 0.
+ * Return: multiplicaton of a and b.
  */
 int mul(int a, int b)
 {
