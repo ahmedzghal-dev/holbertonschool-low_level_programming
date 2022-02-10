@@ -8,7 +8,7 @@
 /**
  * positive_or_negative - Entry point
  *@i: integer.
- * Return: Always 0 (Success)
+ * Return: Always 0 .
  */
 void positive_or_negative(int i);
 {
