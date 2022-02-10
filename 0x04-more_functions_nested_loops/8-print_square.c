@@ -4,6 +4,7 @@
  * print_square - prints the square.
  * @size: integer.
  */
+
 void print_square(int size)
 {
 	int i, j;
