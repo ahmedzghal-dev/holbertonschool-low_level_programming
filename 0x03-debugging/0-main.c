@@ -1,24 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include "main.h"
 
 /**
- * positive_or_negative - Entry point
- *@i: integer.
- * Return: Always 0 .
- */
-void positive_or_negative(int i);
+* main - tests function that prints if integer is zero
+* Return: 0
+*/
+
+int main(void)
 {
 	int i;
 
-	if (i > 0)
-	printf("%d is positive\n", i);
-	else if (i < 0)
-	printf("%d is negative\n", i);
-	else
-	printf("%d is zero\n", i);
+	i = 0;
+	positive_or_negative(i);
+
 	return (0);
 }
