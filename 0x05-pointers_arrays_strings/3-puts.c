@@ -4,7 +4,6 @@
  * _puts - check the code.
  * @str: character.
  *
- * Return: length of a string.
  */
 void _puts(char *str)
 {
