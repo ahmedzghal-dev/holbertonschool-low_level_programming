@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * puts2 - check the code
+ *@str: character.
  */
 void puts2(char *str)
 {
-	int i, n = 0;
-	char *l;
+	char i;
+	int j = 0;
 
-	for (l = str; *l; l++)
-		n += 1;
-	for (i = 0; i < n; i++)
+	for (i = str; i; i++)
 	{
-		if (i%2==0)
+		if (j % 2 == 0)
 			_putchar(str[i]);
+		j + 1;
 	}
 	_putchar(10);
 }
