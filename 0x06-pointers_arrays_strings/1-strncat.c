@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *_strcat - check the code
+ *_strncat - check the code
  *@dest: pointer
  *@src: pointer
+ *@n: integer
  *
  * Return: always dest.
  */
