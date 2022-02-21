@@ -9,11 +9,10 @@
  */
 char *_strchr(char *s, char c)
 {
-	do {
+	while (*s++)
+	{
 		if (*s == c)
-		{
-			return (char*)s;
-		}
-	} while (*s++);
-	return (s);
+			return (s);
+	}
+	return (0);
 }
