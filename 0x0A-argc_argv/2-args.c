@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/**
+ *main - check the code
+ *@argc:argument counter
+ *@argv:argument value
+ *@i: integer
+ * Return: Always 0.
+ */
 int main(int argc, char *argv[])
 {
 	int i;
