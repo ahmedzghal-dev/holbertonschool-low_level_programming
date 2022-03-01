@@ -13,6 +13,8 @@
  {
      int **grid;
      int i;
+     int grid[i] = 0;
+     
       if(width == 0)
     {
         return (NULL);
