@@ -14,11 +14,11 @@
      int **grid;
      int i;
 
-      if(width == 0)
+      if(width <= 0)
     {
         return (NULL);
     }
-     if(height == 0)
+     if(height <= 0)
     {
         return (NULL);
     }
