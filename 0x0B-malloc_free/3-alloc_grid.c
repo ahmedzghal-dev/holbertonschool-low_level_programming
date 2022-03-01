@@ -28,6 +28,5 @@
     {
         grid[i] = malloc(width * sizeof(int));
     }
-    free(grid);
     return (grid);
  }
