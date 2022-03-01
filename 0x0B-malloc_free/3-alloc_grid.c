@@ -3,30 +3,26 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _strdup - creates an array of chars
- * @str: pointer
-
- *
+ * alloc_grid - check the code
+ * @width: pointer
+ * @height: pointer
  * Return: always 0.
  */
- int **alloc_grid(int width, int height)
- {
-     int **grid;
-     int i;
+int **alloc_grid(int width, int height)
+{
+	int i;
+	int **j;
 
-      if(width <= 0)
-    {
-        return (NULL);
-    }
-     if(height <= 0)
-    {
-        return (NULL);
-    }
-   
-    grid = malloc(height * sizeof(int *));
-    for(i = 0; i < height; i++)
-    {
-        grid[i] = malloc(width * sizeof(int));
-    }
-    return (grid);
- }
+	j = malloc(sizeof(int *) * width);
+	if (j == NULL)
+		return (NULL);
+	if (width <= 0 || height <= 0)
+		return (NULL);
+	{
+		for (i = 0; i < height; i++)
+		{
+			j[i] = malloc(sizeof(int) * height);
+		}
+	}
+	return (j);
+}
