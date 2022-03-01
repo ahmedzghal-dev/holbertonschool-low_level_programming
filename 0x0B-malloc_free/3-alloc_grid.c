@@ -13,8 +13,7 @@
  {
      int **grid;
      int i;
-     int grid[i] = 0;
-     
+
       if(width == 0)
     {
         return (NULL);
@@ -23,7 +22,7 @@
     {
         return (NULL);
     }
-
+   
     grid = malloc(height * sizeof(int *));
     for(i = 0; i < height; i++)
     {
