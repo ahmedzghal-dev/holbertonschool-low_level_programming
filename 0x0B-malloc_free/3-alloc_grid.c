@@ -13,13 +13,13 @@
  {
      int **grid;
      int i;
-      if(width == NULL)
+      if(width == 0)
     {
-        return (NULL);
+        return (0);
     }
-     if(height == NULL)
+     if(height == 0)
     {
-        return (NULL);
+        return (0);
     }
 
     grid = malloc(height * sizeof(int *));
