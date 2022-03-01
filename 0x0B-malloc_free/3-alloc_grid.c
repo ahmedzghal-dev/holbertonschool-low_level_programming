@@ -15,11 +15,11 @@
      int i;
       if(width == 0)
     {
-        return (0);
+        return (NULL);
     }
      if(height == 0)
     {
-        return (0);
+        return (NULL);
     }
 
     grid = malloc(height * sizeof(int *));
