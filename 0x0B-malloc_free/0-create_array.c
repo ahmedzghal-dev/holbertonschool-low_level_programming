@@ -2,15 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * create_array - creates an array of chars
- * @buffer: the address of memory to print
+ * create_array - check the code
  * @size: the size of the memory to print
- *
+ *@c: character
  * Return: always 0.
  */
 char *create_array(unsigned int size, char c)
 {
-    
 	char *b = malloc(sizeof(char) * size);
 	unsigned int i;
 
