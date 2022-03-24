@@ -14,6 +14,9 @@ int c;
 unsigned int len;
 
 len = strlen(b);
+if (b == NULL)
+		return (0);
+	len = strlen(b);
 
 for (c = len - 1; c >= 0; c--)
 {
