@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 #include <string.h>
 /**
  * binary_to_uint - check the code
@@ -15,8 +14,8 @@ unsigned int len;
 
 len = strlen(b);
 if (b == NULL)
-		return (0);
-	len = strlen(b);
+return (0);
+len = strlen(b);
 
 for (c = len - 1; c >= 0; c--)
 {
