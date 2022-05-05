@@ -2,16 +2,7 @@
 #include "lists.h"
 
 /**
- * listint_len - returns the length of the list
- * @h: pointer to the list
- *
- * Return: count list length
- */
-#include <stdio.h>
-#include "lists.h"
-
-/**
- * listint_len - returns the length of the list
+ * dlistint_len - returns the length of the list
  * @h: pointer to the list
  *
  * Return: count list length
