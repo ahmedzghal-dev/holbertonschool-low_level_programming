@@ -3,7 +3,6 @@
  * hash_table_delete - delete the hash table.
  * @ht: hash table.
  *
- * Return:EXIT_SUCCESS.
  */
 void hash_table_delete(hash_table_t *ht)
 {
